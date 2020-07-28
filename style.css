@@ -1,0 +1,116 @@
+body {
+  /* background-image: url('./images/low_contrast_linen.png'); */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  padding-top: 90px;
+}
+
+button {
+  margin: 1em;
+}
+
+.navbar {
+  background-color: black;  
+  color: white;  
+  padding-bottom: 0;
+  padding-left: 0;
+  width: 100%;
+}
+
+#navbar-title {
+  padding: 15px;
+  font-size: 30px;
+  color: #fff !important;
+}
+
+
+.container-fluid {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+
+.nav-link:hover {
+  background-color: green;  
+  color: white;
+}
+
+.right {
+ 
+}
+
+#details {
+  background-color: #090054;  
+  margin-top: 50px;
+  margin-bottom: 80px;
+  padding: 40px;
+  text-align: center;
+  color: white;
+  border-radius: 25px;
+} 
+.btn-secondary{
+  background-color: green !important;
+  border-radius: 10px;
+  width: 150px;
+} 
+.btn-secondary:hover{
+  background-color: #03ff03 !important;
+  color: black;
+}
+
+li {
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #5d05da;
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 1.5;
+  list-style-type: none;
+}
+
+li:hover {
+  background-color: green;
+}
+
+#answer-image {
+  float: left;
+  padding-right: 1em;
+  padding-top: 0.25em;
+}
+
+#startQuiz{
+}
+
+.footer {
+  background-color: #666;
+  height: 10%;
+  border-top: solid;
+  border-top-color: #b6d7e2;  
+  border-top-width: 8px;
+}
+
+
+/* media query for screen size to be applied to center text to switch at same time as navbar */
+@media (max-width: 768px) {
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  li {
+    border-right: none;
+  }
+
+  .nav-link{
+    padding: 1px;
+  }
+}
+#startFoodQuiz{
+  display: none !important;
+}
